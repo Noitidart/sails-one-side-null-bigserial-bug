@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+
+  # Add a postgres instance as our primary data store
+  postgres-test:
+    image: postgres:11.5-alpine
+    environment:
+      - POSTGRES_DB=null-one-side
+    ports:
+      - 5439:5432
+
+# Here we can configure settings for the default network
+networks:
+  default:

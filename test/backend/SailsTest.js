@@ -38,7 +38,7 @@ class SailsTest {
             datastores: {
               default: {
                 adapter: 'sails-postgresql',
-                url: 'postgresql://postgres:@localhost:5433/the-masjid-app'
+                url: 'postgresql://postgres:@localhost:5439/null-one-side'
               },
             },
             hooks: {
