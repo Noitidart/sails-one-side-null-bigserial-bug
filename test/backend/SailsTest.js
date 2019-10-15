@@ -35,12 +35,12 @@ class SailsTest {
             custom: {
               baseUrl: 'http://localhost:' + port
             },
-            // datastores: {
-            //   default: {
-            //     adapter: 'sails-postgresql',
-            //     url: 'postgresql://postgres:@localhost:5433/the-masjid-app'
-            //   },
-            // },
+            datastores: {
+              default: {
+                adapter: 'sails-postgresql',
+                url: 'postgresql://postgres:@localhost:5433/the-masjid-app'
+              },
+            },
             hooks: {
               grunt: false,
               apianalytics: false

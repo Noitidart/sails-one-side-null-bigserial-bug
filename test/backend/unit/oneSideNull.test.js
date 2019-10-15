@@ -4,7 +4,7 @@ describe('One-side of relation can be null', () => {
 
   after(async () => {
 
-    await cleanDatabase();
+    // await cleanDatabase();
 
   });
 
